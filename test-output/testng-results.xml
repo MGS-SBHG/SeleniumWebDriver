@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite Suite-Listeners]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Batch-Listeners]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.main]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.main]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in automationFramework.TestListener]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : TestListener.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : TestListener.afterMethod]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite-Listeners" duration-ms="133" started-at="2016-06-17T14:56:52Z" finished-at="2016-06-17T14:56:52Z">
+    <groups>
+    </groups>
+    <test name="Batch-Listeners" duration-ms="133" started-at="2016-06-17T14:56:52Z" finished-at="2016-06-17T14:56:52Z">
+      <class name="automationFramework.TestListener">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationFramework.TestListener@bf9759]" name="beforeMethod" is-config="true" duration-ms="22" started-at="2016-06-17T10:56:52Z" finished-at="2016-06-17T10:56:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:automationFramework.TestListener@bf9759]" name="main" duration-ms="12" started-at="2016-06-17T10:56:52Z" finished-at="2016-06-17T10:56:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.main]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in automationFramework.TestListener]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : TestListener.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationFramework.TestListener@bf9759]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-17T10:56:52Z" finished-at="2016-06-17T10:56:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : TestListener.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- automationFramework.TestListener -->
+    </test> <!-- Batch-Listeners -->
+  </suite> <!-- Suite-Listeners -->
+</testng-results>
